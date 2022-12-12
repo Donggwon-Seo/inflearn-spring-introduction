@@ -32,7 +32,7 @@ class MemberIntegrationServiceTest {
     void join() {
         //given
         Member member = new Member();
-        member.setName("spring");
+        member.setName("spring2");
 
         //when
         Long savaId = memberService.join(member);

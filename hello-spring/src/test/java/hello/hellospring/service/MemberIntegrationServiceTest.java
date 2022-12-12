@@ -18,8 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class MemberIntegrationServiceTest {
 
     @Autowired MemberService memberService;
-    @Autowired
-    MemberRepository memberRepository;
+    @Autowired MemberRepository memberRepository;
 
     @BeforeEach
     public void beforeEach() {
